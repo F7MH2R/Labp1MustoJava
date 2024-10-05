@@ -15,7 +15,7 @@
         <form method="post" action="procesarProducto.jsp">
             <div class="form-group">
                 <label for="codigo">Código del Producto:</label>
-                <input type="text" class="form-control" id="codigo" name="codigo" required>
+                <input type="text" class="form-control" id="codigo" name="codigo" required >
             </div>
             <div class="form-group">
                 <label for="nombre">Nombre del Producto:</label>
@@ -23,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label for="cantidad">Cantidad:</label>
-                <input type="number" class="form-control" id="cantidad" name="cantidad" required>
+                <input type="number" class="form-control" id="cantidad" name="cantidad" required >
             </div>
             <div class="form-group">
                 <label for="precio">Precio Unitario:</label>

@@ -63,7 +63,7 @@
         <form method="post" action="finalizarFactura.jsp">
             <div class="form-group">
                 <label for="montoRecibido">Monto Recibido:</label>
-                <input type="number" step="0.01" class="form-control" id="montoRecibido" name="montoRecibido" required>
+                <input type="number" step="0.01" class="form-control" min="0" id="montoRecibido" name="montoRecibido" required oninput="this.value = this.value.replace(/-/g, '');>
             </div>
             <div class="form-group">
                 <label for="moneda">Moneda:</label>
